@@ -17,3 +17,8 @@ Python - Hello, World
 Complete this source code to print object-oriented programming with Python, followed by a new line.
 
 9. Easter Egg - a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+
+10. Linked list cycle  a function in C that checks if a singly linked list has a cycle in it.
+
+    Prototype: int check_cycle(listint_t *list);
+    Return: 0 if there is no cycle, 1 if there is a cycle
