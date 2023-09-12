@@ -7,3 +7,5 @@ a program that imports functions from the file calculator_1.py, does some Maths,
 
  3. Infinite addition 
  a program that prints the result of the addition of all arguments
+ 4. Who are you?
+ a program that prints all the names defined by the compiled module hidden_4.pyc 
