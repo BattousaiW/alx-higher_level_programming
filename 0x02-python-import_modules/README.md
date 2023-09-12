@@ -9,3 +9,5 @@ a program that imports functions from the file calculator_1.py, does some Maths,
  a program that prints the result of the addition of all arguments
  4. Who are you?
  a program that prints all the names defined by the compiled module hidden_4.pyc 
+ 5. Everything can be imported 
+  a program that imports the variable a from the file variable_load_5.py and prints its value.
