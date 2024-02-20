@@ -31,6 +31,5 @@ int check_cycle(listint_t *list)
 		turtle = turtle->next;
 		hare = hare->next->next;
 	}
-
 	return (0);
 }
