@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a class that checks for the same obj"""
 
+
 def is_same_class(obj, a_class):
     """function to check if object is the same class
     Arguments:
@@ -14,4 +15,3 @@ def is_same_class(obj, a_class):
         return True
     else:
         return False
-

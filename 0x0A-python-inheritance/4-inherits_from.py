@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define an inherits_from class"""
 
+
 def inherits_from(obj, a_class):
 
     """function to check if obj is inherited from a class
