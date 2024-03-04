@@ -16,3 +16,4 @@ class Square(Rectangle):
 
         string = "[Square] " + str(self.__size) + "/" + str(self.__size)
         return string
+    
