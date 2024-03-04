@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Define a Square class that inherits from Rectangle (9-rectangle.py), (task based on 10-square.py)"""
-
+"""Define a Square class that inherits from Rectangle"""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
@@ -17,4 +16,3 @@ class Square(Rectangle):
 
         string = "[Square] " + str(self.__size) + "/" + str(self.__size)
         return string
-
