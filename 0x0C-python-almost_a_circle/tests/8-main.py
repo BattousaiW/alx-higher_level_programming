@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """ 8-main """
 from models.rectangle import Rectangle
 

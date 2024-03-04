@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """ 17-main """
 from models.rectangle import Rectangle
 
@@ -11,9 +13,3 @@ if __name__ == "__main__":
     print(r2)
     print(r1 is r2)
     print(r1 == r2)
-
-guillaume@ubuntu:~/$ ./17-main.py
-[Rectangle] (1) 1/0 - 3/5
-[Rectangle] (1) 1/0 - 3/5
-False
-False
