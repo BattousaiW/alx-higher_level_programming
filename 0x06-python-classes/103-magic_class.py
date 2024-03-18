@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""Define a MagicClass matching exactly a bytecode provided by Holberton."""
+
 import math
-""""magic class """
 
 
 class MagicClass:
@@ -12,7 +13,7 @@ class MagicClass:
         Arg:
             radius (float or int): The radius of the new MagicClass.
         """
-        self.__radius = radius
+        self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
             raise TypeError("radius must be a number")
         self.__radius = radius
