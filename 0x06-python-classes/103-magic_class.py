@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import math
+""""magic class """
 
 
 class MagicClass:
@@ -11,7 +12,7 @@ class MagicClass:
         Arg:
             radius (float or int): The radius of the new MagicClass.
         """
-        self.__radius = 0
+        self.__radius = radius
         if type(radius) is not int and type(radius) is not float:
             raise TypeError("radius must be a number")
         self.__radius = radius
