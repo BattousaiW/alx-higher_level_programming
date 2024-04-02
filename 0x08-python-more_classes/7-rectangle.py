@@ -6,21 +6,17 @@ Contains a definition for class rectangle.
 
 class Rectangle:
     """Definition of class rectangle.
-
-       Args:
-    
     number_of_instances: counter for objects in existence.
     """
     number_of_instances = 0
     print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         """
             Initializes a new Class Rectangle instance.
-
             Args:
                 width(int): rectangle width.
                 height(int): rectangle height.
-
             Raises:
                 TypeError: if width/height is not int.
                 ValueError: if width/ height is not >= 0
