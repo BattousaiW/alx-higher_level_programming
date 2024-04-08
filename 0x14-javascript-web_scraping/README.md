@@ -1,7 +1,7 @@
 Javascript - Web scraping
 
 This project involved practicing file I/O on Node.js and using the NPM request
-framework to interact with the [Star Wars](https://swapi.co/),
+
 
 
 0. Readme
