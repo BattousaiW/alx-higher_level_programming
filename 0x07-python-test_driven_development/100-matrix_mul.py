@@ -3,6 +3,7 @@
 a function that multiplies 2 matrices
 """
 
+
 def transpose(matrix):
     """ transpose a matrix """
     new_matrix = []
