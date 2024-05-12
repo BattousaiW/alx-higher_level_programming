@@ -8,10 +8,6 @@ def is_same_class(obj, a_class):
         param1: object
         param2: a_class that matches the object
     Return:
-    True for coopy of obj or False if not
+    True for copy of obj or False if not
     """
-
-    if type(obj) == a_class:
-        return True
-    else:
-        return False
+    return isinstance(obj, a_class)
